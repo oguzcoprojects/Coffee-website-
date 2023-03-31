@@ -1,0 +1,252 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap');
+
+
+*::before, 
+*::after
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:  
+    border-box; border: 0;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+a,
+a:link, 
+a:visited {
+text-decoration: none;
+outline: none;
+border: none;
+}
+ul,
+li{
+    list-style:  none;
+    margin: 0; 
+    padding: 0;
+}
+
+section,
+span,
+P {
+margin: 0;
+padding: 0;
+outline: none;
+border: none;
+}
+
+
+.container {
+     max-width: 1170px;
+     margin: 0 auto; 
+     padding: 0 15px;
+}
+
+.header{
+background-image: url(arkaplan.jpg);
+background-position: center ;
+background-size: 1600px, 100px;
+background-repeat:repeat;
+height: 100vh;
+}
+
+
+
+
+
+
+.header-navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 100px 0;
+}
+
+.header-logo{
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-bottom: 5px solid #000;
+    border-radius: 35px;
+    padding-bottom: 5px;    
+    color: #110f0f
+}
+ul {
+display: flex;
+}
+li{
+margin-left: 27px;
+}
+li:first-child{
+margin-right: 70px; 
+}
+
+a{
+    color: #050505;
+    font-weight: bold; 
+    font-size: 25px;
+     
+}
+
+
+
+.header-text
+{ 
+position: absolute; top: 50%;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+align-items:  center;
+justify-content:  center;
+flex-direction: column;
+}
+
+h1  {
+font-size: 8.5rem;
+font-weight: 100;
+line-height: 0.4;
+letter-spacing: 2px;
+font-family: 'JetBrains Mono', monospace;
+color: #745b37;
+}
+.first-letter
+{
+font-size: 10.3rem;
+font-family: 'Herr Von Muellerhoff', cursive; color: #745b37;
+}
+
+h3{
+     text-indent: 50px;
+     font-size: 22px;
+     font-weight: 25px;
+     font-family: 'JetBrains Mono', monospace;
+}
+
+.btn-coffee{
+
+   
+    display: block;
+    background-color:#745b37;
+    background-size:20px;
+    letter-spacing: normal;
+    padding: 10px 15px;
+    color: aliceblue;
+    border-top-left-radius:35px;
+   border-bottom-right-radius:35px;
+   position: relative; 
+   overflow: hidden;
+}
+
+.btn-coffee:after{
+content: "BUY"; 
+position: absolute; 
+top: 100;
+left: 0;
+background-color:#5b2a02;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center; justify-content: center;
+
+} 
+.btn-coffee:hover::after{ top: 0;
+}
+
+.about-img img {
+    width: 50%;
+    height: auto;
+  }
+  .about-coffee p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  .about-img img {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .about-img img:hover {
+    opacity: 0.7;
+  }
+  .about-img-hover {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .about-img-hover:hover {
+    opacity: 0.7;
+  }
+  
+  footer {
+    background-color: #333; /* arka plan rengi */
+    color: #fff; /* yazı rengi */
+    padding: 30px; /* içerik kenar boşluğu */
+    margin-top: 50px; /* üst boşluk */
+}
+.container {
+    max-width: 1200px; /* maksimum genişlik */
+    margin: 0 auto; /* merkez hizalama */
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-right: 10px; /* Change this value to reduce or increase the space */
+  }
+  
+  .about-img {
+    display: flex;
+    justify-content: center;
+  }
+  .about-img img {
+    margin: 0 10px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .about-coffee p {
+    margin: 0 10%;
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .header-menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .header-menu {
+    float: right;
+  }
+  .header-logo {
+    float: left;
+}
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-img img {
+    width: 500px;
+    height: auto;
+  }
+  
+  #header {
+    height: calc(33.33vh);
+  }
+  .header-logo {
+    float: left;
+    margin-top: 20px;
+  }
+  
